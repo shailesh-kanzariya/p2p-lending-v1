@@ -1,6 +1,10 @@
-## Balance transfer
+## Peer 2 Peer Lending Application
 
-A sample Node.js app to demonstrate **__fabric-client__** & **__fabric-ca-client__** Node.js SDK APIs
+A blockchain powered application that leverages smart contracts to transfer the money from lender to borrower automatically when certain criteria and conditions are met. These conditions are defined and executed as smart contractrts (chain code into Hyperledger).  Overall idea here is to remove or reduce role of intermediaries and make transactions smart and automatic.
+
+For example, lender can offer $5000.00 amount for lending at 1% interest. Similarly, borrowr can also ask for borrowing money at specific interest rate. When lender and borrower's criteria are mactched with each other then money is automatically transfeered and transaction is recorded into the ledger. Here the idea is to remove the intermediaries between lender and borrower and make it automatic to reduce time and expenses. As borrower borrows money, its risk level is automatically increased as its liabilities are increased. Lender has to define condition to lend money with low or high risk level borrowres.
+
+Clarification: This application and its entire idea is solely to learn developing Hyperledger Fabric based blockchain application. And the application is not really transferring any money :)
 
 ### Prerequisites and setup:
 
