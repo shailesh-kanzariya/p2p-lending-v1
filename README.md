@@ -4,7 +4,8 @@ A blockchain powered application that leverages smart contracts to transfer the 
 
 For example, lender can offer $5000.00 amount for lending at 1% interest. Similarly, borrowr can also ask for borrowing money at specific interest rate. When lender and borrower's criteria are mactched with each other then money is automatically transfeered and transaction is recorded into the ledger. Here the idea is to remove the intermediaries between lender and borrower and make it automatic to reduce time and expenses. As borrower borrows money, its risk level is automatically increased as its liabilities are increased. Lender has to define condition to lend money with low or high risk level borrowres.
 
-## Clarification: This application and its entire idea is solely to learn developing Hyperledger Fabric based blockchain application. And the application is not really transferring any money :)
+### Clarification:
+This application and its entire idea is solely to learn developing Hyperledger Fabric based blockchain application. And the application is not really transferring any money :)
 
 ### Prerequisites and setup:
 
@@ -14,9 +15,9 @@ For example, lender can offer $5000.00 amount for lending at 1% interest. Simila
 * **Node.js** v6.9.0 - 6.10.0 ( __Node v7+ is not supported__ )
 * [Download Docker images](http://hyperledger-fabric.readthedocs.io/en/latest/samples.html#binaries)
 
-## Application has 2 organisations, 1 Orderer, 2 CAs and 2 peers for each organisation.
+### Application has 2 organisations, 1 Orderer, 2 CAs and 2 peers for each organisation.
 * 2 CAs
 * A SOLO orderer
 * 4 peers (2 peers per Org)
 
-## Application uses Node.js as web server which exposes REST APIs which invokes transactions on rquest from client application developed into Angular.
+### Application uses Node.js as web server which exposes REST APIs which invokes transactions on rquest from client application developed into Angular.
